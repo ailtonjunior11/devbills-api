@@ -1,10 +1,12 @@
-# Listar as transações com filtros
+# Criar transações (DONE)
+
+- id categoria, nome, valor, data, tipo
+
+# Listar as transações com filtros (DONE)
 
 - por nome
 - por periodo (início e fim)
 - por categoria
-
-# Listar as categorias
 
 # Dados de saldo com filtros
 
@@ -18,11 +20,11 @@
 
 - por ano
 
-# Criar categorias
+--
+
+# Criar categorias (DONE)
 
 - nome, cor
 - Não é possível criar categorias com o mesmo nome
 
-# Criar transações
-
-- categoria, nome, valor, data, tipo
+# Listar as categorias (DONE)
