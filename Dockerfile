@@ -4,7 +4,7 @@ WORKDIR /home/app
 
 COPY . ./
 
-RUN npm i
+RUN npm i --force
 
 EXPOSE 3333
 
