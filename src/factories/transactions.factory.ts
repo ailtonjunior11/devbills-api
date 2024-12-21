@@ -2,7 +2,7 @@ import { CategoriesRepository } from '../database/repositories/categories.reposi
 import { TransactionsRepository } from '../database/repositories/transactions.repository';
 import { CategoryModel } from '../database/schemas/category.schema';
 import { TransactionModel } from '../database/schemas/transactions.schema';
-import { TransactionsService } from '../services/transactions.service';
+import { TransactionsService } from '../services/transactions.services';
 
 export class TransactionsFactory {
   private static transactionsService: TransactionsService;

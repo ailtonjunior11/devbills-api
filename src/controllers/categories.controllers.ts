@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from 'express';
 
-import { CategoriesService } from '../services/categories.service';
+import { CategoriesService } from '../services/categories.services';
 import { CreateCategoryDTO } from '../dtos/categories.dto';
 import { StatusCodes } from 'http-status-codes';
 import { BodyRequest } from './types';

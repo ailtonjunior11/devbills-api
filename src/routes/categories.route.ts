@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import { CategoriesController } from '../controllers/categories.controller';
+import { CategoriesController } from '../controllers/categories.controllers';
 import { ParamsType, validator } from '../middleware/validator.middleware';
 import { createCategorySchema } from '../dtos/categories.dto';
 import { CategoriesFactory } from '../factories/categories.factory';

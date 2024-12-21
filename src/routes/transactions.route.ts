@@ -7,7 +7,7 @@ import {
   getFinancialEvolutionSchema,
   indexTransactionsSchema,
 } from '../dtos/transactions.dto';
-import { TransactionsController } from '../controllers/transactions.controller';
+import { TransactionsController } from '../controllers/transactions.controllers';
 import { TransactionsFactory } from '../factories/transactions.factory';
 
 export const transactionsRoutes = Router();
