@@ -1,5 +1,5 @@
 import { CategoryModel } from '../database/schemas/category.schema';
-import { CategoriesService } from '../services/categories.service';
+import { CategoriesService } from '../services/categories.services';
 import { CategoriesRepository } from './../database/repositories/categories.repository';
 
 export class CategoriesFactory {
